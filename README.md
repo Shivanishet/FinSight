@@ -1,183 +1,148 @@
-# 💰 FinSight – AI-Powered Personal Finance Platform
+# 💰 FinSight
 
 <div align="center">
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
-![Supabase](https://img.shields.io/badge/Supabase-Backend-green?logo=supabase)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
-![License](https://img.shields.io/badge/License-MIT-green)
+### AI-Powered Personal Finance Platform
 
-An AI-powered personal finance platform that helps users manage expenses, budgets, income, and spending analytics through an intuitive dashboard with intelligent financial insights.
+Track your income, expenses, budgets, and financial trends with AI-powered insights through a modern and intuitive dashboard.
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase)
 
 </div>
 
 ---
 
-# 📌 Overview
+# 📖 Overview
 
-FinSight is a modern full-stack finance management platform designed to help users understand their spending habits and make smarter financial decisions.
+FinSight is a full-stack personal finance platform designed to help users take control of their finances through intuitive expense tracking, income management, budgeting, analytics, and AI-powered financial insights.
 
-The platform enables users to securely manage their income and expenses, create monthly budgets, visualize financial trends through interactive analytics, and receive AI-powered insights based on their financial data.
-
----
-
-# 🚀 Live Demo
-
-> Add your deployed link here
-
-```
-https://your-app.vercel.app
-```
-
----
-
-# 📸 Screenshots
-
-> Create a folder named **screenshots** in the root of your project.
-
-Example structure
-
-```
-FinSight/
-│
-├── screenshots/
-│   ├── login.png
-│   ├── register.png
-│   ├── dashboard.png
-│   ├── expenses.png
-│   ├── income.png
-│   ├── budgets.png
-│   ├── analytics.png
-│   ├── insights.png
-│   └── profile.png
-│
-├── src/
-├── README.md
-```
-
-Then add them like this:
-
-## Login
-
-![Login](screenshots/login.png)
-
----
-
-## Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
----
-
-## Expense Management
-
-![Expenses](screenshots/expenses.png)
-
----
-
-## Income Tracking
-
-![Income](screenshots/income.png)
-
----
-
-## Budget Management
-
-![Budgets](screenshots/budgets.png)
-
----
-
-## Analytics
-
-![Analytics](screenshots/analytics.png)
-
----
-
-## AI Insights
-
-![Insights](screenshots/insights.png)
-
----
-
-## Profile
-
-![Profile](screenshots/profile.png)
+The application provides secure authentication, real-time financial analytics, and intelligent recommendations to help users better understand and manage their spending habits.
 
 ---
 
 # ✨ Features
 
-### 🔐 Authentication
+## 🔐 Authentication
 
-- Secure user authentication using Supabase
-- User registration
+- Secure User Registration
 - Login & Logout
+- Email Verification
+- Welcome Email after Registration
 - Protected Routes
-- Session Persistence
+- Persistent Login Sessions
 
 ---
 
-### 💸 Expense Management
+## 💸 Expense Management
 
-- Add expenses
-- Edit expenses
-- Delete expenses
-- Expense categorization
-- Date-based expense tracking
-
----
-
-### 💰 Income Tracking
-
-- Add income
-- Edit income
-- Delete income
-- Multiple income sources
-- Monthly income tracking
+- Add Expenses
+- Edit Expenses
+- Delete Expenses
+- Categorize Expenses
+- Date-wise Expense Tracking
 
 ---
 
-### 📊 Budget Management
+## 💰 Income Management
 
-- Monthly budget creation
-- Category-wise budgets
-- Budget utilization tracking
-- Spending progress indicators
-
----
-
-### 📈 Analytics Dashboard
-
-- Income vs Expense comparison
-- Monthly financial trends
-- Spending by category
-- Financial summary cards
-- Interactive charts
+- Add Income
+- Edit Income
+- Delete Income
+- Track Multiple Income Sources
 
 ---
 
-### 🤖 AI Financial Insights
+## 📅 Budget Management
 
-- AI-generated financial observations
-- Spending recommendations
-- Budget analysis
-- Financial health suggestions
+- Monthly Budget Planning
+- Category-wise Budgets
+- Budget Usage Tracking
 
 ---
 
-### 🎨 User Experience
+## 📊 Analytics Dashboard
+
+- Income vs Expense Overview
+- Monthly Spending Trends
+- Category-wise Expense Breakdown
+- Interactive Charts
+
+---
+
+## 🤖 AI Insights
+
+- AI Generated Financial Insights
+- Spending Recommendations
+- Budget Analysis
+- Financial Health Suggestions
+
+---
+
+## 🎨 User Experience
 
 - Responsive Design
-- Light/Dark Mode
-- Clean Dashboard
-- Modern UI
+- Light & Dark Mode
+- Modern Dashboard
+- Clean UI
 - Toast Notifications
 
 ---
 
-# 🛠 Tech Stack
+# 📸 Application Preview
+
+## Login
+
+![](screenshots/login.png)
+
+---
+
+## Dashboard
+
+![](screenshots/dashboard.png)
+
+---
+
+## Expense Management
+
+![](screenshots/expenses.png)
+
+---
+
+## Income Management
+
+![](screenshots/income.png)
+
+---
+
+## Budget Management
+
+![](screenshots/budgets.png)
+
+---
+
+## Analytics
+
+![](screenshots/analytics.png)
+
+---
+
+## AI Insights
+
+![](screenshots/insights.png)
+
+---
+
+## Profile
+
+![](screenshots/profile.png)
+
+---
+
+# 🛠️ Tech Stack
 
 ## Frontend
 
@@ -185,39 +150,38 @@ Then add them like this:
 - TypeScript
 - Vite
 - Tailwind CSS
-- React Router
+- React Router DOM
+- Lucide React
 
-## Backend
+## Backend & Database
 
 - Supabase
-
-## Database
-
-- PostgreSQL
 
 ## Authentication
 
 - Supabase Authentication
 
-## AI
-
-- AI-generated financial insights
-
 ---
 
 # 📂 Project Structure
 
-```
-src/
+```text
+FinSight
 │
-├── components/
-├── context/
-├── hooks/
-├── pages/
-├── services/
-├── utils/
-├── types/
-└── App.tsx
+├── public/
+├── screenshots/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── utils/
+│   └── App.tsx
+│
+├── README.md
+├── package.json
+└── vite.config.ts
 ```
 
 ---
@@ -227,7 +191,7 @@ src/
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/FinSight.git
+git clone https://github.com/YOUR_USERNAME/FinSight.git
 ```
 
 Move into the project
@@ -242,7 +206,7 @@ Install dependencies
 npm install
 ```
 
-Run the project
+Run the application
 
 ```bash
 npm run dev
@@ -252,56 +216,26 @@ npm run dev
 
 # 🔑 Environment Variables
 
-Create a `.env` file.
+Create a `.env` file in the root directory.
 
 ```env
-VITE_SUPABASE_URL=YOUR_SUPABASE_URL
-VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+VITE_SUPABASE_URL=your_supabase_url
+
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 ---
 
-# 📊 Database
+# 🚀 Future Enhancements
 
-The application uses PostgreSQL through Supabase with:
-
-- Row Level Security (RLS)
-- Secure Authentication
-- Expenses Table
-- Income Table
-- Budgets Table
-- AI Insights Table
-
----
-
-# 🎯 Future Improvements
-
-- Email Verification
-- Welcome Emails
-- Forgot Password
-- AI Expense Categorization
-- Receipt OCR
-- Voice-based Expense Entry
+- Receipt OCR for Automatic Expense Entry
+- Voice-based Expense Recording
 - AI Financial Coach Chatbot
-- Export Reports as PDF
+- Export Reports as PDF/Excel
 - Multi-Currency Support
-
----
-
-# 💡 What I Learned
-
-While building FinSight, I gained hands-on experience with:
-
-- Full-Stack Development
-- React Architecture
-- TypeScript
-- Supabase Authentication
-- PostgreSQL
-- Row Level Security (RLS)
-- State Management
-- Dashboard Development
-- AI Feature Integration
-- Secure API Design
+- Recurring Income & Expense Tracking
+- Savings Goal Management
+- Mobile Application
 
 ---
 
@@ -323,6 +257,4 @@ This project is licensed under the MIT License.
 
 **Shivani Shet**
 
-GitHub: https://github.com/shivanishet
-
-If you found this project useful, consider giving it a ⭐.
+⭐ If you found this project useful, consider giving it a star!
