@@ -18,14 +18,6 @@ Track expenses, manage budgets, visualize spending patterns, and receive AI-powe
 
 ---
 
-# 🚀 Dashboard Preview
-
-<p align="center">
-  <img src="project/screenshots/dashboard.png" width="950">
-</p>
-
----
-
 # 📖 Overview
 
 FinSight is a modern AI-powered personal finance platform designed to help users efficiently manage their income, expenses, and budgets while gaining intelligent financial insights.
