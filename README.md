@@ -2,9 +2,11 @@
 
 <div align="center">
 
-### AI-Powered Personal Finance & Expense Intelligence Platform
+# AI-Powered Personal Finance & Expense Intelligence Platform
 
-Track expenses, manage budgets, visualize spending patterns, and receive AI-powered financial insights—all in one modern web application.
+Track expenses, manage budgets, visualize spending patterns, and receive AI-powered financial insights with a modern full-stack finance management application.
+
+<br>
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
@@ -16,30 +18,36 @@ Track expenses, manage budgets, visualize spending patterns, and receive AI-powe
 
 ---
 
+# 🚀 Dashboard Preview
+
+<p align="center">
+  <img src="project/screenshots/dashboard.png" width="950">
+</p>
+
+---
+
 # 📖 Overview
 
-FinSight is a full-stack personal finance platform built to simplify money management through intelligent analytics and modern design.
+FinSight is a modern AI-powered personal finance platform designed to help users efficiently manage their income, expenses, and budgets while gaining intelligent financial insights.
 
-The application allows users to securely manage income, expenses, and monthly budgets while generating AI-powered financial insights to improve spending habits.
-
-It provides a clean dashboard, interactive analytics, secure authentication, email verification, welcome emails, and real-time data synchronization using Supabase.
+The application combines secure authentication, real-time cloud synchronization, interactive analytics, AI-assisted categorization, and personalized financial recommendations into one seamless experience.
 
 ---
 
 # ✨ Features
 
-## 🔐 Authentication
+### 🔐 Authentication
 
 - Secure User Registration
 - Login & Logout
 - Email Verification
 - Welcome Email after Registration
-- Persistent User Sessions
 - Protected Routes
+- Persistent Sessions
 
 ---
 
-## 💰 Income Management
+### 💰 Income Management
 
 - Add Income
 - Edit Income
@@ -49,7 +57,7 @@ It provides a clean dashboard, interactive analytics, secure authentication, ema
 
 ---
 
-## 💸 Expense Management
+### 💸 Expense Management
 
 - Add Expenses
 - Edit Expenses
@@ -59,92 +67,95 @@ It provides a clean dashboard, interactive analytics, secure authentication, ema
 
 ---
 
-## 📅 Budget Management
+### 📅 Budget Management
 
-- Create Monthly Budgets
-- Category-wise Budget Limits
+- Monthly Budget Planning
+- Category-wise Budgets
 - Budget Progress Tracking
 - Spending Alerts
 
 ---
 
-## 📊 Analytics Dashboard
+### 📊 Analytics
 
 - Income vs Expense Comparison
-- Monthly Spending Trends
-- Category-wise Expense Distribution
+- Monthly Financial Trends
+- Category-wise Spending
 - Interactive Charts
 - Financial Summary Cards
 
 ---
 
-## 🤖 AI Features
+### 🤖 AI Features
 
 - Smart Expense Categorization
 - AI Financial Insights
 - Spending Pattern Analysis
-- Personalized Recommendations
-- Financial Health Suggestions
+- Personalized Financial Suggestions
 
 ---
 
-## 🎨 User Experience
+### 🎨 User Experience
 
 - Responsive Design
-- Light & Dark Theme
-- Modern Dashboard UI
+- Dark & Light Theme
 - Toast Notifications
-- Smooth Navigation
+- Modern Dashboard
+- Clean User Interface
 
 ---
 
 # 📸 Application Preview
 
-## 🔑 Login
+<table>
+<tr>
+<td align="center">
+<b>Login</b><br><br>
+<img src="project/screenshots/login.png" width="430">
+</td>
 
-![](project/screenshots/login.png)
+<td align="center">
+<b>Dashboard</b><br><br>
+<img src="project/screenshots/dashboard.png" width="430">
+</td>
+</tr>
 
----
+<tr>
+<td align="center">
+<b>Expenses</b><br><br>
+<img src="project/screenshots/expenses.png" width="430">
+</td>
 
-## 📊 Dashboard
+<td align="center">
+<b>Income</b><br><br>
+<img src="project/screenshots/income.png" width="430">
+</td>
+</tr>
 
-![](project/screenshots/dashboard.png)
+<tr>
+<td align="center">
+<b>Budgets</b><br><br>
+<img src="project/screenshots/budgets.png" width="430">
+</td>
 
----
+<td align="center">
+<b>Analytics</b><br><br>
+<img src="project/screenshots/analytics.png" width="430">
+</td>
+</tr>
 
-## 💸 Expenses
+<tr>
+<td align="center">
+<b>AI Insights</b><br><br>
+<img src="project/screenshots/insights.png" width="430">
+</td>
 
-![](project/screenshots/expenses.png)
-
----
-
-## 💰 Income
-
-![](project/screenshots/income.png)
-
----
-
-## 📅 Budgets
-
-![](project/screenshots/budgets.png)
-
----
-
-## 📈 Analytics
-
-![](project/screenshots/analytics.png)
-
----
-
-## 🤖 AI Insights
-
-![](project/screenshots/insights.png)
-
----
-
-## 👤 Profile
-
-![](project/screenshots/profile.png)
+<td align="center">
+<b>Profile</b><br><br>
+<img src="project/screenshots/profile.png" width="430">
+</td>
+</tr>
+</table>
 
 ---
 
@@ -163,7 +174,7 @@ It provides a clean dashboard, interactive analytics, secure authentication, ema
 
 - Supabase
 - Supabase Authentication
-- Supabase Edge APIs
+- Supabase Edge Functions
 
 ## Database
 
@@ -172,7 +183,8 @@ It provides a clean dashboard, interactive analytics, secure authentication, ema
 
 ## AI
 
-- AI-powered Financial Insights Engine
+- AI-powered Expense Categorization
+- AI-generated Financial Insights
 
 ---
 
@@ -184,11 +196,21 @@ FinSight/
 ├── project/
 │   ├── screenshots/
 │   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   │
 │   ├── supabase/
 │   ├── package.json
 │   ├── vite.config.ts
 │   ├── tailwind.config.js
 │   ├── tsconfig.json
+│   ├── .env
 │   └── ...
 │
 └── README.md
@@ -196,27 +218,27 @@ FinSight/
 
 ---
 
-# 🚀 Getting Started
+# ⚙ Installation
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/Shivanishet/FinSight.git
 ```
 
-Move into the project
+### Navigate to Project
 
 ```bash
 cd FinSight/project
 ```
 
-Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start Development Server
+### Run Development Server
 
 ```bash
 npm run dev
@@ -238,16 +260,16 @@ VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
 
 # 📈 Key Highlights
 
-- Full-Stack Web Application
-- Secure Authentication
-- Email Verification
-- Welcome Emails
-- AI-assisted Expense Categorization
-- AI-generated Financial Insights
-- Real-time Database
-- Interactive Analytics
-- Budget Management
-- Responsive UI
+- 🔐 Secure Authentication
+- ✉️ Email Verification
+- 📧 Welcome Email
+- ☁️ Cloud Database
+- 🤖 AI-assisted Expense Categorization
+- 💡 AI-generated Financial Insights
+- 📊 Interactive Analytics
+- 📅 Budget Tracking
+- 🌙 Dark Mode
+- 📱 Responsive Design
 
 ---
 
@@ -259,16 +281,16 @@ VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
 - Multi-Currency Support
 - Savings Goal Tracker
 - Recurring Transactions
-- Export Reports (PDF & Excel)
+- PDF & Excel Report Export
 - Mobile Application
 
 ---
 
 # 🤝 Contributing
 
-Contributions are always welcome.
+Contributions are welcome!
 
-Feel free to fork this repository, improve it, and submit a pull request.
+If you find a bug or have an idea for an improvement, feel free to fork the repository and submit a pull request.
 
 ---
 
@@ -276,14 +298,15 @@ Feel free to fork this repository, improve it, and submit a pull request.
 
 ## Shivani Shet
 
-Passionate Full-Stack Developer focused on building modern AI-powered web applications.
+Passionate Full-Stack Developer focused on building scalable and AI-powered web applications.
 
-GitHub: https://github.com/Shivanishet
+GitHub:
+https://github.com/Shivanishet
 
 ---
 
-# ⭐ Support
+# ⭐ Show Your Support
 
-If you found this project helpful or interesting, consider giving it a ⭐ on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
 
-It motivates me to build more amazing projects!
+It helps others discover the project and motivates further development.
